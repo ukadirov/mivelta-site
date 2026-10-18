@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mivelta — AI Family Health</title>
+<meta name="description" content="A family health assistant: symptoms, medicines, lab results, meals and a diary for the whole family.">
+<meta name="theme-color" content="#061871">
+<link rel="icon" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<meta property="og:title" content="Mivelta — AI Family Health">
+<meta property="og:description" content="A family health assistant: symptoms, medicines, lab results, meals and a diary for the whole family.">
+<meta property="og:image" content="https://mivelta.com/assets/og.jpg">
+<meta property="og:url" content="https://mivelta.com/">
+<style>
+@font-face{font-family:Nunito;font-weight:400;font-display:swap;src:url(assets/nunito-400.woff) format('woff')}
+@font-face{font-family:Nunito;font-weight:700;font-display:swap;src:url(assets/nunito-700.woff) format('woff')}
+@font-face{font-family:Nunito;font-weight:800;font-display:swap;src:url(assets/nunito-800.woff) format('woff')}
+:root{--brand:#061871;--ink:#141a33;--muted:#5a6280;--line:#e3e6f2;--bg:#f6f7fc;--card:#fff;--soft:#d6deff;--link:#3346c8}
+@media (prefers-color-scheme:dark){:root{--ink:#e9ecfa;--muted:#a3abc9;--line:#232b52;--bg:#0b1033;--card:#121a47;--link:#9fb0ff}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 Nunito,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:var(--link)}
+.hero{background:radial-gradient(120% 90% at 50% 0%,#1a2fa0 0%,var(--brand) 60%);color:#fff;text-align:center;padding:40px 16px 36px}
+.hero img{width:132px;height:auto;display:block;margin:0 auto 12px}
+.hero h1{font-weight:800;font-size:44px;line-height:1.1;margin:0;letter-spacing:-.5px}
+.hero .line{color:var(--soft);font-weight:700;letter-spacing:1.5px;margin-top:6px;font-size:15px}
+.hero.small{padding:22px 16px 20px}
+.hero.small img{width:64px;margin-bottom:6px}
+.hero.small h1{font-size:28px}
+.langs{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:18px 0 0}
+.langs button{font:inherit;font-size:14px;font-weight:700;color:#fff;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:6px 14px;cursor:pointer}
+.langs button[aria-pressed=true]{background:#fff;color:var(--brand)}
+main{max-width:720px;margin:0 auto;padding:24px 16px 48px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px 22px;margin:0 0 14px}
+h2{font-weight:800;font-size:22px;margin:0 0 4px}
+h3{font-weight:800;font-size:18px;margin:0 0 6px}
+p{margin:0 0 10px}
+p:last-child{margin-bottom:0}
+ul{margin:0;padding-left:20px}
+li{margin:4px 0}
+.muted{color:var(--muted);font-size:15px}
+.tag{font-size:20px;font-weight:700;margin:0 0 12px}
+.soon{font-weight:800}
+footer{text-align:center;color:var(--muted);font-size:14px;padding:0 16px 32px}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<header class="hero"><img src="assets/mark.png" alt="Mivelta" width="132" height="132"><h1>Mivelta</h1><div class="line">AI Family Health</div><nav class="langs" aria-label="Language"><button type="button" value="uz" aria-pressed="false">Ўзбекча</button><button type="button" value="uzl" aria-pressed="false">O‘zbekcha</button><button type="button" value="ru" aria-pressed="false">Русский</button><button type="button" value="en" aria-pressed="false">English</button></nav></header><main><section data-lang="uz" lang="uz-Cyrl" hidden><div class="card"><p class="tag">Оилангиз саломатлиги учун ёрдамчи — шифокоргача.</p><ul><li>Белгилар бўйича савол-жавоб</li><li>Дори эслатмалари</li><li>Таҳлил ва таом сурати</li><li>Босим, қанд, вазн кундалиги</li><li>Бутун оила учун битта илова</li></ul></div><div class="card"><p class="soon">Тез орада App Store ва Google Play’да.</p><p class="muted">Mivelta ташхис қўймайди ва шифокор ўрнини босмайди. Шошилинч ҳолатда 103 га қўнғироқ қилинг.</p></div><p><a data-keep="privacy" href="privacy">Махфийлик сиёсати</a></p></section><section data-lang="uzl" lang="uz-Latn" hidden><div class="card"><p class="tag">Oilangiz salomatligi uchun yordamchi — shifokorgacha.</p><ul><li>Belgilar bo‘yicha savol-javob</li><li>Dori eslatmalari</li><li>Tahlil va taom surati</li><li>Bosim, qand, vazn kundaligi</li><li>Butun oila uchun bitta ilova</li></ul></div><div class="card"><p class="soon">Tez orada App Store va Google Play’da.</p><p class="muted">Mivelta tashxis qo‘ymaydi va shifokor o‘rnini bosmaydi. Shoshilinch holatda 103 ga qo‘ng‘iroq qiling.</p></div><p><a data-keep="privacy" href="privacy">Maxfiylik siyosati</a></p></section><section data-lang="ru" lang="ru" hidden><div class="card"><p class="tag">Помощник по здоровью вашей семьи — до врача.</p><ul><li>Вопросы о симптомах</li><li>Напоминания о лекарствах</li><li>Фото анализов и еды</li><li>Дневник давления, сахара и веса</li><li>Одно приложение для всей семьи</li></ul></div><div class="card"><p class="soon">Скоро в App Store и Google Play.</p><p class="muted">Mivelta не ставит диагнозы и не заменяет врача. В экстренной ситуации звоните 103.</p></div><p><a data-keep="privacy" href="privacy">Политика конфиденциальности</a></p></section><section data-lang="en" lang="en"><div class="card"><p class="tag">Your family’s health assistant — before the doctor.</p><ul><li>Questions about symptoms</li><li>Medicine reminders</li><li>Lab sheet and meal photos</li><li>Blood pressure, sugar and weight diary</li><li>One app for the whole family</li></ul></div><div class="card"><p class="soon">Coming soon to the App Store and Google Play.</p><p class="muted">Mivelta does not diagnose and does not replace a doctor. In an emergency, call your local emergency number.</p></div><p><a data-keep="privacy" href="privacy">Privacy policy</a></p></section></main><footer>© 2026 Mivelta · <a href="mailto:privacy@mivelta.com">privacy@mivelta.com</a></footer>
+<script>
+(function(){
+  var codes=["uz", "uzl", "ru", "en"], pick=null;
+  try{pick=new URLSearchParams(location.search).get('lang')}catch(e){}
+  if(codes.indexOf(pick)<0){try{pick=localStorage.getItem('lang')}catch(e){}}
+  if(codes.indexOf(pick)<0){var n=(navigator.language||'en').toLowerCase();
+    pick=n.indexOf('uz')===0?(n.indexOf('latn')>0?'uzl':'uz'):n.indexOf('ru')===0?'ru':'en';}
+  function show(c){
+    document.querySelectorAll('[data-lang]').forEach(function(el){el.hidden=el.getAttribute('data-lang')!==c});
+    document.querySelectorAll('.langs button').forEach(function(b){b.setAttribute('aria-pressed',b.value===c)});
+    var s=document.querySelector('[data-lang="'+c+'"]'); if(s) document.documentElement.lang=s.lang;
+    document.querySelectorAll('a[data-keep]').forEach(function(a){a.href=a.getAttribute('data-keep')+'?lang='+c});
+    try{localStorage.setItem('lang',c)}catch(e){}
+  }
+  document.querySelectorAll('.langs button').forEach(function(b){b.addEventListener('click',function(){show(b.value)})});
+  show(pick);
+})();
+</script>
+</body>
+</html>
