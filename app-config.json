@@ -1,0 +1,4 @@
+{
+  "_comment": "Read by the app at launch (lib/core/app_update.dart). Raise min_build to make older builds show a 'please update' screen. Build numbers: TestFlight/App Store build for ios, versionCode for android. 0 = no minimum.",
+  "min_build": {"ios": 0, "android": 0}
+}
